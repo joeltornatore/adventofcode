@@ -51,8 +51,6 @@ def operate(op1, op2, operator):
         return (op1 >> op2) & 0xFFFF
     if operator == "LSHIFT":
         return (op1 << op2) & 0xFFFF
-    print(f"bad operator {operator}")
-    sys.exit(1)
 
 
 if __name__ == "__main__":
